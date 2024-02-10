@@ -33,7 +33,7 @@
               <div class="carousel-item active" style="height: 100%; width:auto;">
                 <div class="row" style="height: 100%; width:auto;">
                     <div class="col-8" style="height: 100%; width:auto;">
-                        <img src="img/mapa-kazo.jpg" class="img-fluid" style="height: 100%; width:auto;" alt="...">
+                        <img src="img/mapa-kazo.jpg" class="img-fluid" style="height: 90%; width:auto; margin-top:2.5%; margin-left: 2.5%" alt="...">
                     </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
     </div>
 
     <script>
-        for (var i = 1; i < 4; i++) {
+        for (var i = 1; i < 11; i++) {
             var myCarousel = document.querySelector('.carousel-inner')
             var div_carousel_child = document.createElement("div")
             div_carousel_child.className="carousel-item";
@@ -62,7 +62,7 @@
 
             var div_carousel_img_child = document.createElement("img")
             div_carousel_img_child.className="img-fluid";
-            div_carousel_img_child.style="height: 100%; width:auto";
+            div_carousel_img_child.style="height: 90%; width:auto; margin-top:2.5%; margin-left: 2.5%";
             div_carousel_img_child.src="img/" + "kazo-" + i + ".jpg"
             div_carousel_col_child.appendChild(div_carousel_img_child)
         }
